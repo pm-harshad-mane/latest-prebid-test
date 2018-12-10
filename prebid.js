@@ -30246,7 +30246,7 @@ pbjsChunk([67], {
                                 video_skippable: e.params.video.skippable ? 1 : 0
                             }),
                             a.video = i
-                        } else {
+                        } //else {
                             if (t = {
                                 pos: 0,
                                 w: e.params.width,
@@ -30266,7 +30266,7 @@ pbjsChunk([67], {
                                 t.format = d
                             }
                             a.banner = t
-                        }
+                        //}
                         return a
                     }(n))
                 }
